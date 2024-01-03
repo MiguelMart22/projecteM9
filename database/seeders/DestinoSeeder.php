@@ -14,14 +14,14 @@ class DestinoSeeder extends Seeder
             'nombre' => 'Torre Eiffel',
             'descripcion' => 'Icono emblemático de París, ofrece impresionantes vistas de la ciudad.',
             'precio' => 50.00,
-            'imagen' => 'torre_eiffel.jpg',
+            'imagen' => 'images/torre_eiffel.jpg',
         ]);
 
         DB::table('destinos')->insert([
             'nombre' => 'Louvre',
             'descripcion' => 'El museo más grande del mundo, hogar de la Mona Lisa y otras obras maestras.',
             'precio' => 40.00,
-            'imagen' => 'louvre.jpg',
+            'imagen' => 'images/louvre.jpg',
         ]);
 
         // Destinos en Roma
@@ -29,14 +29,14 @@ class DestinoSeeder extends Seeder
             'nombre' => 'Coliseo',
             'descripcion' => 'Anfiteatro romano antiguo, escenario de espectáculos y batallas.',
             'precio' => 60.00,
-            'imagen' => 'coliseo.jpg',
+            'imagen' => 'images/coliseo.jpg',
         ]);
 
         DB::table('destinos')->insert([
             'nombre' => 'Ciudad del Vaticano',
             'descripcion' => 'Sede de la Iglesia Católica, con la Basílica de San Pedro y los Museos Vaticanos.',
             'precio' => 55.00,
-            'imagen' => 'vaticano.jpg',
+            'imagen' => 'images/vaticano.jpg',
         ]);
 
         // Destinos en Barcelona
@@ -44,14 +44,14 @@ class DestinoSeeder extends Seeder
             'nombre' => 'Sagrada Familia',
             'descripcion' => 'Famosa basílica diseñada por Antoni Gaudí, aún en construcción.',
             'precio' => 35.00,
-            'imagen' => 'sagrada_familia.jpg',
+            'imagen' => 'images/sagrada_familia.jpg',
         ]);
 
         DB::table('destinos')->insert([
             'nombre' => 'La Rambla',
             'descripcion' => 'Avenida peatonal llena de vida con tiendas, restaurantes y artistas callejeros.',
             'precio' => 25.00,
-            'imagen' => 'rambla.jpg',
+            'imagen' => 'images/rambla.jpg',
         ]);
 
     }
