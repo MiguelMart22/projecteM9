@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DestinoController;
 
 /*
 |--------------------------------------------------------------------------
@@ -29,3 +30,5 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+
+Route::get('/destinos', [DestinoController::class, 'index'])->name('destinos.index');
