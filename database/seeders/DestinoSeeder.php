@@ -47,11 +47,21 @@ class DestinoSeeder extends Seeder
             'imagen' => 'images/sagrada_familia.jpg',
         ]);
 
+        
         Destino::create([
             'nombre' => 'La Rambla',
             'descripcion' => 'Avenida peatonal llena de vida con tiendas, restaurantes y artistas callejeros.',
             'precio' => 25.00,
             'imagen' => 'images/rambla.jpg',
         ]);
+
+        //Destiono en Chisinau
+        Destino::create([
+            'nombre' => 'Estatua de Lenin',
+            'descripcion' => 'Estatua en homenaje a Lenin en la capital de moldavia (Chisináu).',
+            'precio' => 50.00,
+            'imagen' => 'images/estatuaLenin.jpg',
+        ]);
+    }
     }
 }
