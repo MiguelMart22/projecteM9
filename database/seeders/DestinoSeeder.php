@@ -64,4 +64,4 @@ class DestinoSeeder extends Seeder
         ]);
     }
     }
-}
+
